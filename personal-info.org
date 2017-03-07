@@ -1,0 +1,11 @@
+#+MACRO: FIRST Oleksandr
+#+MACRO: LAST Litvinov
+#+MACRO: FULL {{{FIRST}}} {{{LAST}}}
+#+MACRO: BLOG http://blog.jee.org.ua
+#+MACRO: EMAIL alex.jake.green@gmail.com
+#+MACRO: PHONE +380999598647
+#+MACRO: CODE https://github.com/alexjakegreen
+#+MACRO: ADDRESS1 Kharkiv
+#+MACRO: ADDRESS2 Ukraine
+
+#+MACRO: HEADER \resheader{ {{{FULL}}} }{ {{{BLOG}}} }{ {{{EMAIL}}} }{ {{{PHONE}}} }{ {{{ADDRESS1}}} }{ {{{ADDRESS2}}} }
