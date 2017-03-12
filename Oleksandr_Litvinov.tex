@@ -1,0 +1,158 @@
+% Created 2017-03-12 Sun 22:32
+\documentclass[letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{fixltx2e}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{marvosym}
+\usepackage{wasysym}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\tolerance=1000
+\renewcommand\maketitle{}
+\usepackage{mycv}
+\hypersetup{colorlinks=true, urlcolor={url-gray}}
+\usepackage{enumitem}
+\setlist{leftmargin=0.25in,nosep}
+\usepackage{multicol}
+\date{}
+\title{Oleksandr\_Litvinov}
+\hypersetup{
+  pdfkeywords={},
+  pdfsubject={},
+  pdfcreator={Emacs 25.1.1 (Org mode 8.2.10)}}
+\begin{document}
+
+\maketitle
+\resheader{ Oleksandr Litvinov }{ http://blog.jee.org.ua }{ alex.jake.green@gmail.com }{ +380999598647 }{ Kharkiv }{ Ukraine }
+
+\section{Professional Knowledge}
+\label{sec-1}
+\subsection{Programming languages}
+\label{sec-1-1}
+Ruby (3 years, 20k SLOC), Perl (5 years, 20k SLOC), C (4 years, 20k SLOC), Golang (1 year, 2k SLOC), Java (1 year, 2k SLOC), JavaScript (3 years, 10k SLOC), HTML+CSS (8 years), some knowledge of Assembler, PHP, Emacs Lisp, Lua, Elixir, Erlang, Zurb Foundation, Bootstrap
+\subsection{Build and CI/CD Tools}
+\label{sec-1-2}
+Jenkins (4 years), Artifactory (4 years), Travis-CI(2 years), Maven(4 years), Gradle(2 years), little experience with Ant+Ivy, GNU Make
+\subsection{Web Servers, Application web servers}
+\label{sec-1-3}
+Nginx(7 years), Openresty (1 year), php-fpm(7 years), Tomcat (2 years), Apache(1 year), some experience with writing own webservers using libmicrohttpd, libwebsockets
+\subsection{Automation Tools, Provisioners}
+\label{sec-1-4}
+Chef (3 years), Ansible (1 year), Docker (1 year), some experience in Puppet (2 months), CFEngine (long-long ago)
+\subsection{Metrics, Monitoring Systems}
+\label{sec-1-5}
+ELK (3 years), syslog (3 years), Jmeter, Tsung, Nagios, Zabbix, New Relic, Pingdom(automated steps via CSS selectors)
+\subsection{Databases}
+\label{sec-1-6}
+MySQL (6 years), Redis (2 years), Solr (2 years), MongoDB(2 years), Elasticsearch. Some experience with PostgreSQL and SQLite3
+\subsection{Datacenters, Clouds, Hypervisors}
+\label{sec-1-7}
+AWS (worked with EC2, EBS, ELB, CloudWatch, CloudFormation, CloudFront, Route53, used separate VPC per environment, ECS), VMWare, VirtualBox, Vagrant. Some knowledge of KVM, QEMU, libvirt
+\subsection{Tools}
+\label{sec-1-8}
+Emacs(6 years), Vim(1 year), Bash(7 years), POSIX shell environment and utilities, Linux (12 years, mostly RedHat family, Gentoo and server administration), FreeBSD (4 years), Git (4 years), SVN (1 year), expect
+
+\section{Experience}
+\label{sec-2}
+\subsection{Technical Operations Engineer at \href{https://quickblox.com}{QuickBlox}}
+\label{sec-2-1}
+\subsubsection{Jul 2016 - Mar 2017}
+\label{sec-2-1-1}
+Proposed to stop using \verb~provided~ in dependency scopes to prevent manual dependency upload to the container\\
+Introduced ELK\\
+Proposed a new approach in determining expected timings for login into chat using normalization to the speed of light\\
+Performed load tests using Tsung, Jmeter, own load test scripts. Found bottleneck in Jmeter\\
+By indirect evidences made an assumption the Customer experiences problems because they intercept and substitute SSL certificates. Made a laboratory stand and checked with developers. Later, the Customer confirmed they did not put their self-signed CA to their device\\
+\subsection{DevOps Engineer at \href{https://epam.com}{EPAM}}
+\label{sec-2-2}
+\subsubsection{Nov 2014 - Jul 2016}
+\label{sec-2-2-1}
+Worked a lot with maintaining Adobe CQ (AEM) farm:
+\begin{itemize}
+\item Developed and implemented deployment scheme using \verb~Jenkins~, \verb~curl~
+\item Developed, implemented backing the data up, restoration of the data, content migration
+\item Proposed to resolve coordinates by Apache instead of writing tons of Java code
+\item Wrote procedure for migration behind CDN, made all needed preparations
+\item Acted as a medium between the team and company network center
+\end{itemize}
+Developed a CloudFormation scenario with persisting the data on EBS\\
+L2 support engineer for \href{http://autotrader.co.za}{autotrader.co.za}
+\begin{itemize}
+\item Moved from using separate Apaches to Nginx installed along with each Tomcat. This optimization gave us 6 free instances in AWS
+\item Developed a logic for automatic artifacts deploy to Job servers based on the release installed on main servers
+\item Implemented blacklisting in Nginx based on headers (e.g. User-Agent, Referer, etc) and source IP
+\item Introduced Cicada cycles in job scheduling so jobs did not interfere each another
+\end{itemize}
+Completed internal course for Java Spring CLI applications (where I used AOP) and a course for Spring MVC, SOAP\\
+Lecturer on internal preproduction courses for students
+\subsection{Technical Operations Engineers at \href{http://toa-ukraine.com}{TOA-Ukraine (Now Oracle)}}
+\label{sec-2-3}
+\subsubsection{May 2010 - Nov 2014}
+\label{sec-2-3-1}
+Developed a WEB interface for managing CFEngine configuration.\\
+Developed a WEB interface where QA engineer can build test environment in several clicks\\
+Worked on improving Demo instances:
+\begin{itemize}
+\item Switched from per-VM installations (40) to multitenant instances running in the same VM - 200 instances using the same hardware, i.e. decreased the cost per instance in 5 times
+\item Developed a Self-Care scenario where sales representative books Demo instance in several clicks without writing any e-mails or involving someone to provide the instance. Gathered requirements, act as product owner, worked in cooperation with Development team
+\end{itemize}
+Introduced new approaches in delivering the code to servers, checking human mistakes, problem investigation\\
+Wrote a lot of useful scripts such as
+\begin{itemize}
+\item Mantis informer - \verb~Gtk2~ tray icon popups if there are changes in ticket queue and assigns the ticket to me if new tickets match some configurable criteria (we played a game in team, the winner is the man who solved most problems/tickets)
+\item Load test script for stress tesing our Login Portal. The script used asynchronous events approach, so we were able to generate enough requests even from small machines. The result was better than we expected: we found a bottleneck and our DNS was also affected during the test
+\item Script opens several tabs in terminal and spawns multiple ssh connection. Used \verb~expect~
+\end{itemize}
+\subsection{System Administrator at \href{https://www.ksd.ua/en/}{Family Leisure Club}}
+\label{sec-2-4}
+\subsubsection{Sep 2009 - May 2010}
+\label{sec-2-4-1}
+Maintained two phone stations OfficeServ 500 and OfficeServ 7400 in two locations\\
+Minimized expences regarding phone calls
+\begin{itemize}
+\item Configured calls between two offices to go through ethernet instead of paid PRI channels
+\item Introduced low cost providers
+\item Switched from manual dialing external trunk group to Low Cost Routing (LCR using tables 710, 712 and 714) by first entered numbers
+\item Introduced phone calls from distant shops over IP
+\item Wrote perl script for log aggregation from phone station and comparing the numbers with the bill
+\end{itemize}
+\subsection{Linux Administrator, Field Engineer, Service Desk Engineer at various ISPs}
+\label{sec-2-5}
+\subsubsection{Mar 2005 - Jul 2009}
+\label{sec-2-5-1}
+Developed Home Entrance Video Monitoring Sytem running on first channel in cable TV.
+Introduced planning and terms prediction to be better in chaffering for a new project. Administered campus network. Increased income by changing billing strategy from per computer to per personal account.
+Worked as 1st and 2nd line support engineer
+
+\section{Projects}
+\label{sec-3}
+
+\subsection{Wife's shop}
+\label{sec-3-1}
+\href{https://bars.kh.ua}{Women's bags} is a personal project where I help my wife to sell handbags and other leather stuff. She adds an item and it is automatically published in social networks. Reversed a part of Instagram API related to uploading images
+\subsection{\href{https://github.com/AlexJakeGreen/bars}{Web application skel}}
+\label{sec-3-2}
+This is a set of initial files I use as a start point for writing web site in Golang
+\subsection{cpu8080, cpu8086}
+\label{sec-3-3}
+\href{https://github.com/AlexJakeGreen/cpu8080}{cpu8080} and \href{https://github.com/AlexJakeGreen/cpu8086}{cpu8086} are my practice in writing cpu emulators, improving Assembler knowledge and understanding of how computers work after all.
+\section{Education}
+\label{sec-4}
+\subsection{Kharkiv National University of Radio Electronics}
+\label{sec-4-1}
+\subsubsection{Aug 2003 - Jun 2008}
+\label{sec-4-1-1}
+Telecommunication Technologies, Faculty of Electronic Devices
+\subsubsection{Sep 2007 - May 2009}
+\label{sec-4-1-2}
+Economical Cybernetics, Faculty of Applied Mathematics and Management
+% Emacs 25.1.1 (Org mode 8.2.10)
+\end{document}
