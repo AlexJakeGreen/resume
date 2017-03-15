@@ -1,0 +1,7 @@
+#+TITLE: My resume builder
+#+DATE: 2017-03-15
+#+STARTUP: content
+
+[[https://github.com/AlexJakeGreen/resume/blob/master/Oleksandr_Litvinov.pdf][My résumé]] builder.
+
+Use =C-c-e l p= to run export pdf.
