@@ -17,63 +17,69 @@
 Ruby (3 years, 20k SLOC),
 Perl (5 years, 20k SLOC),
 C (4 years, 20k SLOC),
-Golang (1 year, 2k SLOC),
+Golang (2 year, 4k SLOC),
 Java (1 year, 2k SLOC),
 JavaScript (3 years, 10k SLOC),
 HTML+CSS (8 years),
-some knowledge of Assembler, PHP, Emacs Lisp, Lua, Elixir, Erlang, Zurb Foundation, Bootstrap, expect
+Groovy (1 year, 1k SLOC)
+some knowledge of Assembler, PHP, Emacs Lisp, Lua, Elixir, Erlang, Zurb Foundation, Bootstrap, Coffeescript, expect
 ** Build and CI/CD Tools
 Jenkins (4 years),
-Artifactory (4 years),
+Artifactory, Nexus3 (4 years),
 Travis-CI (2 years),
 Maven (4 years),
-Gradle (2 years),
+Gradle (3 years),
 little experience with Ant+Ivy, GNU Make
 ** Web Servers, Application web servers
-Nginx (7 years),
+Nginx (8 years),
 Openresty (1 year),
 php-fpm (7 years),
 Tomcat (2 years),
 Apache (1 year),
+HAProxy (2 years),
 some experience with writing own webservers using libmicrohttpd, libwebsockets
 ** Automation Tools, Provisioners
 Chef (3 years),
-Ansible (1 year),
+Ansible (2 years),
 Docker (1 year),
 some experience in Puppet (2 months), CFEngine (long-long ago)
 ** Metrics, Monitoring Systems
 ELK (3 years),
 syslog (3 years),
+Splunk (1 year),
 Jmeter,
 Tsung,
 Nagios,
 Zabbix,
 New Relic,
-Pingdom(automated steps via CSS selectors)
+Pingdom (automated steps via CSS selectors)
 ** Databases
 MySQL (6 years),
 Redis (2 years),
 Solr (2 years),
 MongoDB (2 years),
 Elasticsearch.
-Some experience with PostgreSQL and SQLite3
+Some experience with Cassandra, PostgreSQL and SQLite3
 ** Datacenters, Clouds, Hypervisors
-AWS (worked with EC2, EBS, ELB, CloudWatch, CloudFormation, CloudFront, Route53, used separate VPC per environment, ECS),
+AWS (worked with EC2, EBS, ELB, CloudWatch, CloudFormation, CloudFront, Route53, Lambda, used separate VPC per environment, ECS),
+Docker Swarm (both old and new),
 VMWare,
 VirtualBox,
 Vagrant,
 FreeBSD Jail.
 Some knowledge of KVM, QEMU, libvirt
 ** Tools
-Emacs (6 years),
+Emacs (7 years),
 Vim (1 year),
-Bash (7 years),
+Bash (8 years),
 POSIX shell environment and utilities,
 Linux (12 years, mostly RedHat family, Gentoo and server administration),
 FreeBSD (4 years),
 Git (4 years),
 SVN (1 year)
 * Experience
+** DevOps Engineer at [[https://www.griddynamics.com/][Grid Dynamics]]
+*** Jun 2017 - now
 ** Technical Operations Engineer at [[https://quickblox.com][QuickBlox]]
 *** Jul 2016 - Mar 2017
 Proposed to stop using ~provided~ in dependency scopes to prevent manual dependency upload to the container\\
@@ -132,6 +138,7 @@ Worked as 1st and 2nd line support engineer
 This is a set of initial files I use as a start point for writing web site in Golang
 ** cpu8080, cpu8086
 [[https://github.com/AlexJakeGreen/cpu8080][cpu8080]] and [[https://github.com/AlexJakeGreen/cpu8086][cpu8086]] are my practice in writing cpu emulators, improving Assembler knowledge and understanding of how computers work after all.
+** Own implementation of garbage collector for Docker registry
 * Education
 ** Kharkiv National University of Radio Electronics
 *** Aug 2003 - Jun 2008
